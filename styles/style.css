@@ -1,0 +1,114 @@
+.block-hidden-menu{
+    padding: 23px 24px 32px 0;
+    width: 320px;
+    height: auto;
+    position: absolute;
+    right: auto;
+    color: #1B1C21;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+
+
+.block-top-container {
+    display: flex;
+    height: 51px;
+    justify-content: space-between;
+    padding:0  0 0 24px;
+    margin: 0 0 60px 0;
+    background-image: url(/images/Logo.svg);
+    background-repeat: no-repeat;
+    background-position: 80px center ;
+}
+
+.mod-red-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #FF3E79;
+    border-radius: 20px;
+}
+.block-close {
+    background-image: url(/images/iconclose.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block-search {
+    background-image: url(/images/iconsearch.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block-nagiation {
+    margin: 0 0 268px 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+.block-nagiation__container {
+    padding: 0;
+}
+.block-navigation__item {
+    margin: 0 0 32px 0;
+    list-style-type: none;
+}
+
+.block-navigation__link{
+    padding: 0 0 0 24px;
+    color: #1B1C21;
+    cursor: pointer;
+}
+
+.block-navigation__link:hover{
+    color: #7E7E82;
+    background-image: url(/images/highlight.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.block-navigation__item:last-child {
+    margin: 0 0 0 0;
+    
+}
+.block-links {
+    display: flex;
+    padding: 0 0 0 24px;
+    margin: 0 0 16px 0;
+}
+.block-phone {
+    margin: 0 16px 0 0;
+    background-image: url(/images/iconphone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block-message {
+    margin: 0 16px 0 0;
+    background-image: url(/images/iconchat.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block-asiatant {
+    margin: 0 16px 0 0;
+    background-image: url(/images/Group\ 2asistant.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block-email {
+    display: block;
+    padding: 0 0 0 24px;
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1B1C21;
+}
+.block-number {
+    display: block;
+    padding: 0 0 0 24px;
+    margin: 0 0 40px 0;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1B1C21;
+}
+.block-bottom-cont {
+    padding: 0 0 0 24px;
+}
+.block-bottom-cont__language {
+}
