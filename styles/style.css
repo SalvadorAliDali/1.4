@@ -27,12 +27,12 @@
     border-radius: 20px;
 }
 .block-close {
-    background-image: url(./images/iconclose.svg);
+    background-image: url(../images/iconclose.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 .block-search {
-    background-image: url(./images/iconsearch.svg);
+    background-image: url(../images/iconsearch.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -57,7 +57,7 @@
 
 .block-navigation__link:hover{
     color: #7E7E82;
-    background-image: url(./images/highlight.svg);
+    background-image: url(../images/highlight.svg);
     background-position: left center;
     background-repeat: no-repeat;
 }
@@ -73,19 +73,19 @@
 }
 .block-phone {
     margin: 0 16px 0 0;
-    background-image: url(./images/iconphone.svg);
+    background-image: url(../images/iconphone.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 .block-message {
     margin: 0 16px 0 0;
-    background-image: url(./images/iconchat.svg);
+    background-image: url(../images/iconchat.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 .block-asiatant {
     margin: 0 16px 0 0;
-    background-image: url(./images/Group\ 2asistant.svg);
+    background-image: url(../images/Group\ 2asistant.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
