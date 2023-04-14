@@ -1,3 +1,6 @@
+@import url(fonts.css);
+
+
 .block-hidden-menu{
     padding: 23px 24px 32px 0;
     width: 320px;
@@ -15,7 +18,7 @@
     justify-content: space-between;
     padding:0  0 0 24px;
     margin: 0 0 60px 0;
-    background-image: url(../images/Logo.svg);
+    background-image: url(/images/Logo.svg);
     background-repeat: no-repeat;
     background-position: 80px center ;
 }
@@ -27,12 +30,12 @@
     border-radius: 20px;
 }
 .block-close {
-    background-image: url(../images/iconclose.svg);
+    background-image: url(/images/iconclose.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 .block-search {
-    background-image: url(../images/iconsearch.svg);
+    background-image: url(/images/iconsearch.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -53,11 +56,12 @@
     padding: 0 0 0 24px;
     color: #1B1C21;
     cursor: pointer;
+    font-family: 'TT Lakes Regular';
 }
 
 .block-navigation__link:hover{
     color: #7E7E82;
-    background-image: url(../images/highlight.svg);
+    background-image: url(/images/highlight.svg);
     background-position: left center;
     background-repeat: no-repeat;
 }
@@ -73,19 +77,19 @@
 }
 .block-phone {
     margin: 0 16px 0 0;
-    background-image: url(../images/iconphone.svg);
+    background-image: url(/images/iconphone.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 .block-message {
     margin: 0 16px 0 0;
-    background-image: url(../images/iconchat.svg);
+    background-image: url(/images/iconchat.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 .block-asiatant {
     margin: 0 16px 0 0;
-    background-image: url(../images/Group\ 2asistant.svg);
+    background-image: url(/images/Group\ 2asistant.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -97,12 +101,16 @@
     line-height: 24px;
     text-decoration: none;
     color: #1B1C21;
+    font-family: 'TT Lakes Regular';
 }
 .block-number {
     display: block;
+
     padding: 0 0 0 24px;
     margin: 0 0 40px 0;
+
     text-decoration: none;
+    font-family: 'TT Lakes Bold';
     font-size: 24px;
     line-height: 32px;
     color: #1B1C21;
@@ -110,5 +118,16 @@
 .block-bottom-cont {
     padding: 0 0 0 24px;
 }
+
 .block-bottom-cont__language {
+
+    color: black;
+    font-family: 'TT Lakes Bold';
+}
+
+.block-bottom-cont__language:hover {
+    cursor: pointer;
+    font-family: 'TT Lakes Thin';
+    color: grey;
+
 }
